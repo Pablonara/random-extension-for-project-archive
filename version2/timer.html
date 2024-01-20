@@ -1,0 +1,30 @@
+<link rel="stylesheet" href="styles.css">
+<button id="gotomain1">Back</button>
+<button id="2min">2 minutes</button>
+
+<body>
+    <style>
+        body {
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+    <script src="timer.js">
+        
+        document.getElementById("gotomain1").addEventListener("click", tomainpage1)
+        function tomainpage1() {
+            window.open("popup.html", "_self");
+        }
+        document.getElementById("gotomain1").addEventListener("click", tomainpage1)
+        document.getElementById("2min").addEventListener("click", startTimer)
+        function startTimer() {
+            var x = 2;
+        }
+        document.getElementById("2min").addEventListener("click", () => {
+            chrome.runtime.sendMessage({ message: "messageSent" }, function (response) {
+                console.log(response);
+            });
+        });
+    </script>
+
+</body>

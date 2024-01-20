@@ -1,0 +1,83 @@
+button:hover {
+    top: 1px;
+    border-bottom-width: 3px;
+    margin-bottom: 4px;
+}
+
+button:active {
+    top: 2px;
+    border-bottom-width: 4px;
+    margin-bottom: 4px;
+}
+
+body {
+    color: #edf5e1;
+}
+
+
+body {
+    background-color: #5cdb95;
+}
+
+.content {
+    max-height: 100px;
+    margin: auto;
+}
+
+h1 {
+
+    position: relative;
+    border-width: 0 1px 4px 1px;
+    border-color: #05386b;
+    border-style: solid;
+    background-color: #05386b;
+    padding: 8px 12px 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #edf5e1;
+    outline: none;
+
+}
+
+button {
+    position: relative;
+    border-width: 0 1px 4px 1px;
+    border-color: #05386b;
+    border-style: solid;
+    background-color: #05386b;
+    padding: 8px 12px 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #edf5e1;
+    outline: none;
+    margin-bottom: 4px;
+}
+
+textarea {
+    position: relative;
+    border-width: 0 1px 4px 1px;
+    border-color: #05386b;
+    border-style: solid;
+    background-color: #05386b;
+    padding: 8px 12px 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    color: #edf5e1;
+    outline: none;
+    overflow: auto;
+    margin-bottom: 4px;
+}
+
+.auto_height {
+    /* CSS */
+    width: 100%;
+}
+
+.divider {
+    width: auto;
+    height: 4px;
+    display: inline-block;
+}

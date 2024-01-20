@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="styles.css">
+
+<textarea name="textarea" style="width:250px;height:150px;"
+    placeholder="Write your thoughts here! (you can resize the window!)" cols="30" rows="5"></textarea>
+<button id="gotomain">Back to main page</button>
+<button id="save">Save your entry!</button>
+
+<body>
+    <script src="journal.js">  
+        document.getElementById("gotomain").addEventListener("click", tomainpage)
+        function tomainpage() {
+            window.open("popup.html", "_self");
+        }
+        document.getElementById("gotomain").addEventListener("click", tomainpage)
+        // function auto_height(elem) {  /* javascript */
+        //     elem.style.height = "1px";
+        //     elem.style.height = (elem.scrollHeight) + "px";
+        // }
+        
+    </script>
+
+</body>

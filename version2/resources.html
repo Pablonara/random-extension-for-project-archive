@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="styles.css">
+<H1>What resources would you like to see?</H1>
+<button id="gotomain1">Back</button>
+<button id="vent">Vent to someone, or talk to a therapist!</button>
+<button id="takeabreak">Take a break, and explore the web</button>
+<button id="resources9">Short meditation</button>
+
+<body>
+    <style>
+        body {
+            height: 250px;
+            width: 250px;
+        }
+    </style>
+    <script src="resources.js">
+
+        document.getElementById("gotomain1").addEventListener("click", tomainpage1)
+        function tomainpage1() {
+            window.open("popup.html", "_self");
+        }
+        document.getElementById("gotomain1").addEventListener("click", tomainpage1)
+        document.getElementById("vent").addEventListener("click", toventlink)
+        function toventlink() {
+            window.open("https://blahtherapy.com/")
+        }
+        document.getElementById("resources9").addEventListener("click", toresourcesmeditationlink)
+        function toresourcesmeditationlink() {
+            window.open("resources1.html", '_self');
+        }
+
+    </script>
+
+</body>

@@ -1,0 +1,17 @@
+{
+    "name": "Mood mate",
+    "description": "Build an Extension! (version 0.8.1 pre release poggers)",
+    "version": "0.8.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "notifications",
+        "storage",
+        "alarms"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
